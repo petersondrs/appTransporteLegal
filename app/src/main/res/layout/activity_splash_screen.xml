@@ -6,10 +6,17 @@
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
-    <TextView android:id="@+id/fullscreen_content" android:layout_width="match_parent"
-        android:layout_height="match_parent" android:keepScreenOn="true" android:textColor="#ffffff"
-        android:textStyle="normal" android:textSize="34sp" android:gravity="center" android:fontFamily="sans-serif-light"
-        android:text="TRANSPORTE LEGAL" android:layout_marginTop="-200sp"  />
+    <TextView android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:keepScreenOn="true"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="TRANSPORTE LEGAL"
+        android:layout_marginTop="190dp"  />
 
     <TextView
         android:layout_width="320dp"
@@ -28,6 +35,14 @@
         android:layout_gravity="center"
         android:src="@drawable/splashscreen"
         android:layout_marginTop="65dp" />
+
+    <ImageView
+        android:layout_width="99dp"
+        android:layout_height="71dp"
+        android:id="@+id/brandCityHall"
+        android:layout_gravity="center"
+        android:src="@drawable/brandcityhall"
+        android:layout_marginTop="260dp" />
 
 
     <!-- This FrameLayout insets its children based on system windows using

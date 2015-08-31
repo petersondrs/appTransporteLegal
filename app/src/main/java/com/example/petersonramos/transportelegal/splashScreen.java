@@ -162,9 +162,9 @@ public class splashScreen extends Activity {
 
     public void startSecondActivity(View view) {
 
-        Intent ListTransports = new Intent(this, ListTransports.class);
-        ListTransports.putExtra("number", 100);
-        startActivity(ListTransports);
+        Intent Login = new Intent(this, Login.class);
+        Login.putExtra("number", 100);
+        startActivity(Login);
     }
 
 }
